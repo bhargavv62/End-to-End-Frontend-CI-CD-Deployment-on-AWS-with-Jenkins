@@ -98,7 +98,7 @@ connect the tomcat server and run the script to setup tomcat
 
 Run the below script to setup tomcat
 
-- <a href="https://github.com/Sravanikethari/Frontend-Application-Deployment-Using-Jenkins-CI-CD-on-AWS/blob/main/Deploy%20the%20application%20on%20Tomcat%20Server.html">Tomcat</a>
+- <a href="https://github.com/bhargavv62/End-to-End-Frontend-CI-CD-Deployment-on-AWS-with-Jenkins/blob/main/tomcat%20setup.html">Tomcat setup</a>
 
 Remember the tomcat credentials
 •	username**:** tomcat
