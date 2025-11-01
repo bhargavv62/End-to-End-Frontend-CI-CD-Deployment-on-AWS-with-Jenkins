@@ -163,21 +163,21 @@ By embracing CI/CD, teams can deliver reliable releases faster while dedicating 
 
 
 # 👨‍💻 Author & Contributors
+
 Bhargav 💡 maintains this project.Open to feedback, ideas, and contributions are warmly welcomed.
 
 # 🤝 Let’s Collaborate:
 
 GitHub: https://github.com/bhargavv62
 
-LinkedIn: https://linkedin.com/in/
 
-# ⭐ Support the Project
-If you found this project helpful, please consider:
+# 🚀 Support & Contribute
+Found this project useful?
 
+•	Add a ⭐ to show your appreciation
 
-•	Starring ⭐ the repository
+•	Spread the word by sharing it
 
-•	Sharing it with your network
+•	Contributing ideas, fixes, or improvements
 
-•	Contributing to its improvement
 
