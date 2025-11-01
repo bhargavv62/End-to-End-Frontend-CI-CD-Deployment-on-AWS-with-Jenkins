@@ -41,9 +41,3 @@ Tomcat Server
 
 
 
-
-<img width="1302" height="1094" alt="image" src="https://github.com/user-attachments/assets/5c2a28a0-44b9-4e86-ae74-8e00fa9b1063" />
-If the build gets success, go to workspace and open the target folder, we will get war file
-
-
-<img width="1898" height="1140" alt="image" src="https://github.com/user-attachments/assets/a5d3fa60-4116-444a-9663-91f13698e2b9" />
