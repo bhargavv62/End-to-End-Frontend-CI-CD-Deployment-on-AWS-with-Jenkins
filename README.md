@@ -1,7 +1,7 @@
-## End-to-End-Frontend-CI-CD-Deployment-on-AWS-with-Jenkins
+# End-to-End-Frontend-CI-CD-Deployment-on-AWS-with-Jenkins
 
 
-# Description
+## Description
 
 In modern software development, Continuous Integration (CI) and Continuous Deployment (CD) have become vital for delivering applications faster and with greater consistency.
 This project demonstrates how to automate the deployment of a Java web application on an Apache Tomcat server using a Jenkins-based CI/CD pipeline.
