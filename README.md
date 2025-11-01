@@ -48,13 +48,13 @@ Now copy the public-ip of your system and access it with 8080 port.
 
 ![web](https://github.com/user-attachments/assets/97c8a9ce-fb80-4356-a4a6-a0fd1be16fa7)
 
-# STEP-3: Now Install Deploy to container plugin
+# STEP-3: Add the Deploy to Container plugin in Jenkins
 
 Go to Manage Jenkins » Plugins » Available Plugins » Deploy to container
 
 <img width="2880" height="764" alt="image" src="https://github.com/user-attachments/assets/dd848c8e-7c27-492b-8c27-89ac098f76bd" />
 
-# STEP-4: Integrate Maven
+# STEP-4: Connect Maven to the Build Pipeline
 
 Go to Manage Jenkins » tools and select maven
 
@@ -68,7 +68,7 @@ Version: default (3.9.9)
 <img width="2846" height="1542" alt="image" src="https://github.com/user-attachments/assets/29126666-f19c-460d-91d9-111fb375bd70" />
 Now click on save
 
-# STEP-5: Create a Free Style Job
+# STEP-5: Define a Freestyle Job in Jenkins
 
 <img width="2878" height="1574" alt="image" src="https://github.com/user-attachments/assets/f8ec739b-f839-4e7f-ad95-eca6a9e48a1c" />
 Go to Source Code Management and select Git and enter the repo-url (https://github.com/usubbu/one.git)
@@ -103,7 +103,7 @@ Run the below script to setup tomcat
 Remember the tomcat credentials
 •	username**:** tomcat
 •	password**:** admin@123
-If you wish to modify, change the credentials on above script also.
+If you would like to modify, change the credentials on above script also.
 Now access the tomcat dashboard with public-ip of tomcat server with 8080 port.
 
 <img width="2852" height="1300" alt="image" src="https://github.com/user-attachments/assets/9e3bf9e6-3935-4d3b-955b-f2a43a6b1f4c" />
@@ -142,20 +142,28 @@ The build is success, Now lets refresh the tomcat page and we will see swiggy ap
 
 Open the swiggy app and check the output.
 
-To automate the delivery process, we can also implement Webhooks!.
+We can also implement Webhooks to automate the delivery process.
 
 # Best Practices
-•	Maintain a dedicated staging environment to thoroughly test deployments before moving them to production.
-•	Integrate automated testing into your CI/CD pipeline to identify and resolve issues early.
-•	Harden Jenkins and Tomcat configurations with proper authentication, access controls, and regular security updates.
+
+1) Use a staging environment to test and validate deployments before releasing them to production.
+
+2) Incorporate automated testing within your CI/CD pipeline to detect and fix issues early in the development cycle.
+
+3) Secure Jenkins and Tomcat by enforcing authentication, managing access permissions, and performing regular updates.
+
 
 # Conclusion
-Automating deployments with a CI/CD pipeline helps you save time, minimize errors, and accelerate feature delivery. Deploying Java applications to Tomcat using Jenkins and Maven becomes seamless when approached methodically.
-Adopting CI/CD streamlines workflows, enhances reliability, and accelerates feature delivery—allowing teams to focus on innovation over manual tasks.
+
+Implementing CI/CD automation accelerates software delivery, reduces manual errors, and improves overall consistency.
+
+Deploying Java applications to Apache Tomcat with Jenkins and Maven becomes effortless with a well-structured pipeline.
+
+By embracing CI/CD, teams can deliver reliable releases faster while dedicating more time to innovation and continuous improvement.
 
 
-# 🛠️ Author & Community
-This project is maintained by Sravani💡. Your feedback and contributions are welcome!
+# 👨‍💻 Author & Contributors
+This project is maintained by Bhargav💡. Your feedback and contributions are welcome!
 
 # 📧 Connect with me:
 
