@@ -7,7 +7,7 @@ In modern software development, Continuous Integration (CI) and Continuous Deplo
 This project demonstrates how to automate the deployment of a Java web application on an Apache Tomcat server using a Jenkins-based CI/CD pipeline.
 By integrating Git for source control and Maven for build automation, the process ensures a smooth, reliable, and repeatable deployment cycle from code commit to production release.
 
-# Tools Overview
+## Tools Overview
 
 1) Git – A distributed version control system that manages source code efficiently and enables seamless collaboration among developers.
 
